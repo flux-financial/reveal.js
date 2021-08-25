@@ -6,6 +6,8 @@ http.get('https://api.coindesk.com/v1/bpi/historical/close.json ', function(err,
     if(err) {
         console.log(err);
     } else {
-        console.log(data);
+        let dataload = JSON.parse(data);
+        console.log(dataload.bpi);
+
     }
 });
