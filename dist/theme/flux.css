@@ -355,3 +355,9 @@ section.has-light-background, section.has-light-background h1, section.has-light
     background-color: var(--r-background-color);
   }
 }
+.smalltext {
+  font-size: small;
+}
+.smallertext {
+  font-size: smaller;
+}
